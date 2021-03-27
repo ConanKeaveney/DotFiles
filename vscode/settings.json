@@ -1,0 +1,101 @@
+{
+  "vs-kubernetes": {
+    "vs-kubernetes.kubectl-path.linux": "/home/conan/.vs-kubernetes/tools/kubectl/kubectl",
+    "vs-kubernetes.helm-path.linux": "/home/conan/.vs-kubernetes/tools/helm/linux-amd64/helm",
+    "vs-kubernetes.draft-path.linux": "/home/conan/.vs-kubernetes/tools/draft/linux-amd64/draft",
+    "vs-kubernetes.minikube-path.linux": "/home/conan/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
+    "vs-kubernetes.knownKubeconfigs": [
+      "/home/conan/Desktop/projects/PortfolioSite/config/conanKubernetes-kubeconfig.yaml",
+      "/home/conan/Desktop/projects/PortfolioSite/config/config.yaml"
+    ],
+    "vs-kubernetes.kubeconfig": "/home/conan/Desktop/projects/PortfolioSite/config/conanKubernetes-kubeconfig.yaml"
+  },
+  "workbench.colorTheme": "Material Theme Darker High Contrast",
+  "workbench.iconTheme": "material-icon-theme",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<esc>"]
+    }
+  ],
+  "eslint.alwaysShowStatus": true,
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "prettier.disableLanguages": ["js"],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true
+  },
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[graphql]": {
+    "editor.tabSize": 2
+  },
+  "editor.minimap.enabled": false,
+  "workbench.editor.labelFormat": "short",
+  "emmet.excludeLanguages": ["typescript", "typescriptreact", "javascript"],
+  "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+  "breadcrumbs.enabled": true,
+  "files.trimTrailingWhitespace": true,
+  "workbench.startupEditor": "welcomePage",
+  "typescript.surveys.enabled": false,
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "terminal.integrated.rendererType": "dom",
+  "liveshare.featureSet": "insiders",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "go.formatTool": "goimports",
+  "go.useLanguageServer": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll.eslint": true
+  },
+  "window.zoomLevel": 0,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
+
